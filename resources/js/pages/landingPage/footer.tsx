@@ -40,7 +40,7 @@ const links = [
 
 export default function FooterSection() {
     return (
-        <footer className="py-6 md:py-20">
+        <footer className="py-6 md:py-20 bg-[#030303]">
             <div className="mx-auto max-w-5xl px-6">
                 <Link
                     href="https://www.facebook.com/nathaniel.alvarez.777/"
