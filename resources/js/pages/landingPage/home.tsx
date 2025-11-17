@@ -422,7 +422,7 @@ const testimonials = [
                     </>
                 }
             >
-                <div className="grid grid-cols-3 gap-5 h-full w-full">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-5 h-full w-full">
                      <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-blue-900 w-full rounded-lg overflow-hidden shadow-lg">
         <div className="p-3">
           <div className="flex items-center justify-between mb-3">
@@ -530,7 +530,7 @@ const testimonials = [
       </div>
 
       {/* Mechanic System - Dark minimalist */}
-      <div className="bg-black w-full rounded-lg overflow-hidden shadow-lg">
+      <div className="bg-black w-full rounded-lg overflow-hidden shadow-lg hidden md:block">
         <div className="p-3">
           <div className="flex items-center justify-between mb-3">
             <div className="flex items-center gap-1.5">
@@ -565,7 +565,7 @@ const testimonials = [
           </div>
           
           {/* Job Management Interface Mock */}
-          <div className="bg-gray-950 rounded-lg border border-gray-800 overflow-hidden">
+          <div className="bg-gray-950 rounded-lg border border-gray-800 overflow-hidden hidden md:block">
             <div className="bg-gray-900 px-2 py-1.5 border-b border-gray-800 flex items-center justify-between">
               <span className="text-[8px] text-white font-semibold">Today's Jobs</span>
               <div className="flex gap-1">
@@ -587,7 +587,7 @@ const testimonials = [
       </div>
 
       {/* Doctor Appointments - Light dashboard */}
-      <div className="bg-gray-50 w-full rounded-lg overflow-hidden shadow-sm border border-gray-200">
+      <div className="bg-gray-50 w-full rounded-lg overflow-hidden shadow-sm border border-gray-200 hidden md:block">
         <div className="p-3">
           <div className="text-center mb-3">
             <h1 className="text-base font-bold text-gray-900 mb-1">
@@ -647,7 +647,7 @@ const testimonials = [
       </div>
 
       {/* Lending Management - Gradient hero */}
-      <div className="bg-gradient-to-br from-yellow-600 via-orange-600 to-red-600 w-full rounded-lg overflow-hidden shadow-lg">
+      <div className="bg-gradient-to-br from-yellow-600 via-orange-600 to-red-600 w-full rounded-lg overflow-hidden shadow-lg hidden md:block">
         <div className="p-3">
           <div className="flex items-center justify-between mb-3">
             <div className="flex items-center gap-1.5">
@@ -698,7 +698,7 @@ const testimonials = [
       </div>
 
       {/* Property Management - Clean modern */}
-      <div className="bg-white w-full rounded-lg overflow-hidden shadow-sm border border-gray-200">
+      <div className="bg-white w-full rounded-lg overflow-hidden shadow-sm border border-gray-200 hidden md:block">
         <div className="bg-gradient-to-r from-indigo-500 to-purple-600 px-2 py-1.5 flex items-center justify-between">
           <div className="flex items-center gap-1">
             <Building2 className="w-3 h-3 text-white" />
@@ -755,6 +755,8 @@ const testimonials = [
           </div>
         </div>
       </div>
+
+ 
                 </div>
             </ContainerScroll>
         </div>
@@ -769,7 +771,7 @@ const testimonials = [
                     height={110}
                     rotate={-15}
                     gradient="from-indigo-500/[0.12]"
-                    className="left-[-12%] top-[25%]"
+                    className="left-[-12%] top-[25%] hidden md:block"
                 />
                 <ElegantShape
                     delay={0.4}
@@ -777,7 +779,7 @@ const testimonials = [
                     height={95}
                     rotate={12}
                     gradient="from-violet-500/[0.12]"
-                    className="right-[-10%] top-[55%]"
+                    className="right-[-10%] top-[55%] hidden md:block"
                 />
                 <ElegantShape
                     delay={0.3}
@@ -785,7 +787,7 @@ const testimonials = [
                     height={75}
                     rotate={-22}
                     gradient="from-purple-500/[0.12]"
-                    className="left-[18%] bottom-[12%]"
+                    className="left-[18%] bottom-[12%] hidden md:block"
                 />
             </div>
             

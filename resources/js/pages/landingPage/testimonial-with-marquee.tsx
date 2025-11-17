@@ -20,8 +20,8 @@ export function TestimonialsSection({
 }: TestimonialsSectionProps) {
   return (
     <section className={cn(
-      "text-foreground bg-[#030303]",
-      "px-0 pb-50",
+      "text-foreground bg-[#030303] z-100",
+      "px-0 md:pb-50",
       className
     )}>
       <div className="mx-auto flex max-w-container flex-col items-center gap-4 text-center sm:gap-16">
