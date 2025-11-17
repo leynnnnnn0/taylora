@@ -21,7 +21,7 @@ export function TestimonialsSection({
   return (
     <section className={cn(
       "text-foreground bg-[#030303] z-100",
-      "px-20 md:pb-40",
+      "pb-20 md:pb-40",
       className
     )}>
       <div className="mx-auto flex max-w-container flex-col items-center gap-4 text-center sm:gap-16">
